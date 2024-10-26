@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@keyframes two-colors {
+    from {
+        background-color: salmon;
+    }
+    to {
+        background-color: blue;
+    }
+}
+
+div {
+    
+    width: 100px;
+    height: 100px;
+    background-color: green;
+   /* transition: all 3s; */
+    
+}
+
+div:hover {
+    animation: two-colors 3s both alternate;
+    /*transform: translate(100px, 200px)  rotate(180deg);
+    /*width: 200px;
+    height: 200px;
+    background-color: blue;
+    opacity: 0; */
+}
+
